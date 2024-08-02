@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+</head>
+<body>
+    <section class="notes">
+        <div class="container">
+            <div class="notes-header">
+                <img src="img/notes_logo.png" alt="" class="notes-header__logo">
+                <h1 class="notes-header__text">Приложение для заметок</h1>
+            </div>
+        <div class="notes-block">
+            <div class="notes-wrapper">
+                <form action="notes-form">
+                    <input data-input type="text" class="notes-form__input">
+                </form>
+            <div class="button-wrapper">
+                <button data-btn="add" class="notes-wrapper__btn">Добавить заметку</button>
+                <button data-btn="deleteAll" class="notes-wrapper__btn">Убрать все заметки</button>
+            </div>
+            </div>
+                <div class="notes-wrapper__divider"></div>
+        <div class="notes-cards__block">
+            <!-- <div class="notes-card">
+                <div class="notes-card__title">Пример карточки</div>
+                <div class="notes-card__block">
+                    <img id="del" data-delete src="img/delete.png" alt="" class="notes-card__img">
+                    <img id="check" data-checked src="img/checked.png" alt="" class="notes-card__img">
+                </div>
+            </div> -->
+            <h1 id="title" class="note-block__title">Добавьте новую заметку</h1>
+        </div>
+    </div>
+</section>
+
+    <script src="js/bundle.js"></script>
+</body>
+</html>
