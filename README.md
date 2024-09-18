@@ -12,4 +12,4 @@ WEBPACK - Сборщик модулей, проект собран с помощ
 
 У этого веб-приложения полностью создан адаптив, вплоть до телефоного разрешения
 
-## https://neetrunner.github.io/NOTES_APP/
+https://neetrunner.github.io/NOTES_APP/
